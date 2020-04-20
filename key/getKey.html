@@ -5,8 +5,7 @@
     </head>
       
     <body>
-        <h1 id='keytext'>KEY</h1>
-        <button onclick='random()'>REFRESH KEY</button>
+        
     </body>
     
     <script>
@@ -14,10 +13,13 @@
         let random = Math.floor((Math.random() * 10) + 1);
         console.log(random);
             if(random == 1){
-                document.getElementById('keytext').innerHTML = 'FIRST KEY';
+                document.body.innerHTML = '189EF721258B1378F103A9E80DA07F70259835EC80DB92BBA0E564DE6';
             }
             if(random == 2){
-                document.getElementById('keytext').innerHTML = 'SECOND KEY';
+                document.body.innerHTML = 'AEB8D4488909E13A5C6E57495E6F2DC330C9327C261C1DBC99957A071';
+            }
+            if(random == 3){
+                document.body.innerHTML = '647AAAC4932C853F92A2D1AE5DD89F87C94B1D7EFF73E911E98CF020A';
             }
         }
         
