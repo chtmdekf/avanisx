@@ -13,7 +13,13 @@
         function random(){
         let random = Math.floor((Math.random() * 10) + 1);
         console.log(random);
-        document.getElementById('keytext').innerHTML = random;
+            if(random == 1){
+                document.getElementById('keytext').innerHTML = 'FIRST KEY';
+            }
+            if(random == 2){
+                document.getElementById('keytext').innerHTML = 'SECOND KEY';
+            }
         }
+        
     </script>
 </html>
